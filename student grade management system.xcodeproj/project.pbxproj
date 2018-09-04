@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		984BDA85212D108F00F43B8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDA84212D108F00F43B8F /* main.cpp */; };
+		984BDABA212DB93A00F43B8F /* base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDAB8212DB93A00F43B8F /* base.cpp */; };
+		984BDABF212DBA9500F43B8F /* course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDABD212DBA9500F43B8F /* course.cpp */; };
+		984BDAC2212DBAE000F43B8F /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDAC0212DBAE000F43B8F /* student.cpp */; };
+		984BDAC5212DBB2A00F43B8F /* grade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDAC3212DBB2A00F43B8F /* grade.cpp */; };
+		984BDAC8212DBB6600F43B8F /* performance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDAC6212DBB6600F43B8F /* performance.cpp */; };
+		984BDACB212DBB9C00F43B8F /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDAC9212DBB9C00F43B8F /* tree.cpp */; };
+		984BDACE212DBBF000F43B8F /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 984BDACC212DBBF000F43B8F /* window.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,21 @@
 /* Begin PBXFileReference section */
 		984BDA81212D108F00F43B8F /* student grade management system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "student grade management system"; sourceTree = BUILT_PRODUCTS_DIR; };
 		984BDA84212D108F00F43B8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		984BDAAD212D11FF00F43B8F /* template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = template.h; sourceTree = "<group>"; };
+		984BDAB8212DB93A00F43B8F /* base.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = base.cpp; sourceTree = "<group>"; };
+		984BDAB9212DB93A00F43B8F /* base.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = base.hpp; sourceTree = "<group>"; };
+		984BDABD212DBA9500F43B8F /* course.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = course.cpp; sourceTree = "<group>"; };
+		984BDABE212DBA9500F43B8F /* course.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = course.hpp; sourceTree = "<group>"; };
+		984BDAC0212DBAE000F43B8F /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		984BDAC1212DBAE000F43B8F /* student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = student.hpp; sourceTree = "<group>"; };
+		984BDAC3212DBB2A00F43B8F /* grade.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grade.cpp; sourceTree = "<group>"; };
+		984BDAC4212DBB2A00F43B8F /* grade.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = grade.hpp; sourceTree = "<group>"; };
+		984BDAC6212DBB6600F43B8F /* performance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = performance.cpp; sourceTree = "<group>"; };
+		984BDAC7212DBB6600F43B8F /* performance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = performance.hpp; sourceTree = "<group>"; };
+		984BDAC9212DBB9C00F43B8F /* tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
+		984BDACA212DBB9C00F43B8F /* tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tree.hpp; sourceTree = "<group>"; };
+		984BDACC212DBBF000F43B8F /* window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
+		984BDACD212DBBF000F43B8F /* window.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = window.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			children = (
 				984BDA83212D108F00F43B8F /* student grade management system */,
 				984BDA82212D108F00F43B8F /* Products */,
+				984BDAB2212DB3F300F43B8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +80,47 @@
 		984BDA83212D108F00F43B8F /* student grade management system */ = {
 			isa = PBXGroup;
 			children = (
-				984BDA84212D108F00F43B8F /* main.cpp */,
+				984BDAA1212D11A000F43B8F /* Headers */,
+				984BDAA2212D11B400F43B8F /* Sources */,
 			);
 			path = "student grade management system";
+			sourceTree = "<group>";
+		};
+		984BDAA1212D11A000F43B8F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				984BDAAD212D11FF00F43B8F /* template.h */,
+				984BDAB8212DB93A00F43B8F /* base.cpp */,
+				984BDAB9212DB93A00F43B8F /* base.hpp */,
+				984BDABD212DBA9500F43B8F /* course.cpp */,
+				984BDABE212DBA9500F43B8F /* course.hpp */,
+				984BDAC0212DBAE000F43B8F /* student.cpp */,
+				984BDAC1212DBAE000F43B8F /* student.hpp */,
+				984BDAC3212DBB2A00F43B8F /* grade.cpp */,
+				984BDAC4212DBB2A00F43B8F /* grade.hpp */,
+				984BDAC6212DBB6600F43B8F /* performance.cpp */,
+				984BDAC7212DBB6600F43B8F /* performance.hpp */,
+				984BDAC9212DBB9C00F43B8F /* tree.cpp */,
+				984BDACA212DBB9C00F43B8F /* tree.hpp */,
+				984BDACC212DBBF000F43B8F /* window.cpp */,
+				984BDACD212DBBF000F43B8F /* window.hpp */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		984BDAA2212D11B400F43B8F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				984BDA84212D108F00F43B8F /* main.cpp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		984BDAB2212DB3F300F43B8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984BDAC8212DBB6600F43B8F /* performance.cpp in Sources */,
+				984BDABA212DB93A00F43B8F /* base.cpp in Sources */,
 				984BDA85212D108F00F43B8F /* main.cpp in Sources */,
+				984BDACE212DBBF000F43B8F /* window.cpp in Sources */,
+				984BDABF212DBA9500F43B8F /* course.cpp in Sources */,
+				984BDAC5212DBB2A00F43B8F /* grade.cpp in Sources */,
+				984BDAC2212DBAE000F43B8F /* student.cpp in Sources */,
+				984BDACB212DBB9C00F43B8F /* tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
